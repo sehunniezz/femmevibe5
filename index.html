@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrickStore | Website Catalog</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--------- header --------->
+<div class="header">                    <!-- mengatur background--> 
+    <div class="container">             <!-- menampung header--> 
+        <div class="navbar">            <!-- mengatur menu--> 
+            <div class="logo">          <!-- mengatur logo--> 
+                <a href="index.html">Brick<span>Clothes</span></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">     <!--id js--> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Produk</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="buku-tamu.html">BukuTamu</a></li>
+                </ul>
+            </nav>
+            <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> 
+        </div>
+        <div class="row">               <!--mengatur penataan--> 
+            <div class="col-2">         <!--mengatur isi konten-->
+                <h1>Explore Your Life <br>With A New Style!</h1>
+                <a href="products.html" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">         <!--mengatur isi konten-->
+                <img src="images/BA.png" >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------- kategori --------->
+    <div class="categories">            <!-- kategori--> 
+        <div class="small-container">   <!-- menampung isi kategori-->
+            <div class="row">           <!-- mengatur penataan-->
+                <div class="col-3">     <!-- mengatur isi kategori-->
+                    <img src="images/kategori1.jpg">
+                    <div class="layer">
+                        <h3>HOODIE</h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/kategori2.jpg">
+                    <div class="layer">
+                        <h3>SEPATU</h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/kategori3.jpg">
+                    <div class="layer">
+                        <h3>CELANA</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------- rekomendasi produk --------->
+    <div class="small-container">       <!-- menampung isi kategori-->
+        <h2 class="title">Rekomendasi Produk</h2>
+        <div class="row">               <!-- mengatur penataan-->
+            <div class="col-4"><a href="detail-jaket.html">         <!-- mengatur isi produk-->
+                <img src="images/jaketvarsity.jpg">
+                <h4>Jaket Varsity</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </a>
+                </div>
+                <p>Rp300.000</p>
+            </div>
+            <div class="col-4"><a href="detail-tshirtcat.html">          <!-- mengatur isi produk-->
+                <img src="images/tshirtkucing.jpg">
+                <h4>T-Shirt Cat</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp80.000</p>
+            </div>
+            <div class="col-4"><a href="detail-redprintedt-shirt.html">         <!-- mengatur isi produk-->  
+                <img src="images/kemejaprinted.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </a></div>
+                <p>Rp100.000</p>
+            </div>
+            <div class="col-4"><a href="detail-flannelshirt.html">         <!-- mengatur isi produk--> 
+                <img src="images/kemejaflanel.jpg">
+                <h4>Flannel Shirt</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp100.000</p>
+            </div>
+        </div>
+    </div>
+<!-------- offer -------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">           <!--mengatur isi konten-->
+            <div class="col-2">     <!--mengatur isi konten-->
+                <img src="images/gambar2.png" class="offer-img">
+            </div>
+            <div class="col-2">     <!--mengatur isi konten-->
+                <p>Produk Eksklusif dari BrickClothes</p>
+                <h1>Tas Ransel BrickClothes</h1>
+                <small>Best for: Lifestyle/Classic means authentic. Tas BrickClothes ini tak lekang oleh waktu, klasik juga ikonik. Masukan semua barang yang anda butuhkan ke dalam tas!.</small><br>                    <a href="detail-buynow.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="small-container">
+        <h2 class="title">Produk Terbaru</h2>
+        <div class="row">               <!--mengatur isi konten-->
+            <div class="col-4"><a href="detail-sepatublack.html">
+                <img src="images/sepatublack.jpg">
+                <h4>Sepatu Black & White</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp200.000</p>
+            </div>
+            <div class="col-4"><a href="detail-parispremium.html">
+                <img src="images/parispremium.jpg">
+                <h4>Paris Premium Hijab</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp30.000</p>
+            </div>
+            <div class="col-4"><a href="detail-totebag.html">
+                <img src="images/totebagbesar.jpg">
+                <h4>Tote Bag</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </a></div>
+                <p>Rp60.000</p>
+            </div>
+            <div class="col-4"><a href="detail-celanappanjangcargo.html">
+                <img src="images/celanapanjangkargo.jpg">
+                <h4>Celana Panjang Cargo</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp100.000</p>
+            </div>
+        </div>
+        <div class="row">               <!--mengatur isi konten-->
+            <div class="col-4"><a href="detail-backpack.html">
+                <img src="images/backpack.jpg">
+                <h4>Backpack BrickClothes</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp200.000</p>
+            </div>
+            <div class="col-4"><a href="detail-celanapendek.html">
+                <img src="images/shortpantcargo.jpg">
+                <h4>Celana Pendek</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp60.000</p>
+            </div>
+            <div class="col-4"><a href="detail-hoodiewashed.html">
+                <img src="images/hoodiewash.jpg">
+                <h4>Hoodie Washed</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </a></div>
+                <p>Rp200.000</p>
+            </div>
+            <div class="col-4"><a href="detail-tshirtbear.html">
+                <img src="images/tshirtbear.jpg">
+                <h4>T-Shirt Bear</h4>
+                <div class="ratting">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </a></div>
+                <p>Rp80.000</p>
+            </div>
+        </div>
+    </div>
+
+
+
+   <!------------ brands ----------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">           <!--mengatur isi konten-->
+            <div class="col-5">
+                <img src="images/smansafiks.png">
+            </div>
+            <div class="col-5">
+                <img src="images/ITS.png">
+            </div>
+            <div class="col-5">
+                <img src="images/sponsor4.jpeg">
+            </div>
+            <div class="col-5">
+                <img src="images/sponsorautocar.jpeg">
+            </div>
+            <div class="col-5">
+                <img src="images/sponsor3.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------ footer ----------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">           <!--mengatur isi konten-->
+                <div class="footer-col-1">
+                    <h3>About Us</h3>
+                    <p>Webset kami menjual aneka produk pakaian mulai dari kaos,celana, dan jaket dengan kualitas yang pastinya terjamin baiknya. Karna kami menjamin kepuasan dari konsumen serta pengiriman yang cepat dan pastinya gratis ongkir.</p>
+                </div>
+                <div class="footer-col-2">
+                    <div class="logo">
+                        <a href="index.html">Brick<span>Clothes</span></a>
+                    </div>
+                    <p>Tujuan kami adalah membuat kesenangan dengan style baru dan dapat diakses oleh banyak orang.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://wa.link/w5pwr8">WhattsApp</a></li>
+                        <li><a href="https://www.instagram.com/brickclothes_store/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Karin, Bakur, Rifky, Icha_XII IPA 5</p>
+        </div>
+    </div>
+
+<!------------ js for toggle menu ----------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight="200px"
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        }
+    </script>
+
+</body>
+</html>
